@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudXamarin.PersonsPage">
+    <ListView x:Name="MyListView"
+            ItemsSource="{Binding Path=Persons}"
+             ListView.HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Vertical">
+                        <Entry Text="{Binding Id}" IsEnabled="False"/>
+                        <Entry Text="{Binding FirstName}" />
+                        <Entry Text="{Binding LastName}"/>
+                        <Picker SelectedIndex="{Binding Gender}" HorizontalOptions="FillAndExpand">
+                            <Picker.Items>
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Entry Text="{Binding Location}"/>
+                        <DatePicker Date="{Binding DateOfBirth}"/>
+
+                        <Button Clicked="OnButtonClicked" Text="Pick Photo"> </Button>
+
+                        <Image x:Name="image" Source="{Binding Images}" Aspect="Fill" Grid.Row="2"></Image>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Activated="OnAddClick"
+               Priority="0" Order="Secondary" />
+        <ToolbarItem Name="Remove" Activated="OnRemoveClick"
+               Priority="1" Order="Secondary" />
+        <ToolbarItem Name="Remove all" Activated="OnRemoveAllClick"
+               Priority="2" Order="Secondary" />
+        <ToolbarItem Name="Save" Activated="OnSaveClick"
+               Priority="3" Order="Secondary" />
+    </ContentPage.ToolbarItems>
+</ContentPage>

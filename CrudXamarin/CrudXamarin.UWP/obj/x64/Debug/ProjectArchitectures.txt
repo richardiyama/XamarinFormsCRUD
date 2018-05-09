@@ -1,0 +1,1 @@
+C:\Users\HP\source\repos\CrudXamarin\CrudXamarin\CrudXamarin.UWP\CrudXamarin.UWP.csproj;x64

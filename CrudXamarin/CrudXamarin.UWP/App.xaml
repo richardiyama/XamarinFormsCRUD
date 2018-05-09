@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="CrudXamarin.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrudXamarin.UWP"
+    RequestedTheme="Light">
+
+</Application>
