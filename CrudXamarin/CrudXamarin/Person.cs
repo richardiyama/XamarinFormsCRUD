@@ -27,6 +27,7 @@ namespace CrudXamarin
                 this._id = value;
                 OnPropertyChanged(nameof(Id));
             }
+        
         }
         private string _firstName;
         [NotNull]
