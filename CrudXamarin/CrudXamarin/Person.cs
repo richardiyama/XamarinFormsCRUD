@@ -84,6 +84,7 @@ namespace CrudXamarin
                 this._location = value;
                 OnPropertyChanged(nameof(Location));
             }
+        
         }
         
         private string _gender;
