@@ -103,6 +103,7 @@ namespace CrudXamarin
         }
 
         private DateTime _dateOfBirth;
+        
         public DateTime DateOfBirth
         {
             get
