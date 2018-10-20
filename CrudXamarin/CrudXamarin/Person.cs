@@ -5,6 +5,7 @@ using System;
 using System.ComponentModel;
 
 namespace CrudXamarin
+
 {
     [Table("Persons")]
     public class Person : INotifyPropertyChanged
