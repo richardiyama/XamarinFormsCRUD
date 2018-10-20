@@ -1,6 +1,7 @@
 ﻿using SQLite;
 
 using System;
+
 using System.ComponentModel;
 
 namespace CrudXamarin
