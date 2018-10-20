@@ -110,6 +110,7 @@ namespace CrudXamarin
             {
                 return _dateOfBirth;
             }
+            
             set
             {
                 this._dateOfBirth = value;
