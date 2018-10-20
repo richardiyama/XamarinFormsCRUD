@@ -60,6 +60,7 @@ namespace CrudXamarin
             {
                 return _lastName;
             }
+            
             set
             {
                 this._lastName = value;
