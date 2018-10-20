@@ -54,6 +54,7 @@ namespace CrudXamarin
         
         public string LastName
         {
+            
             get
             {
                 return _lastName;
