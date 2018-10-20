@@ -88,6 +88,7 @@ namespace CrudXamarin
         }
         
         private string _gender;
+        
         public string Gender
         {
             get
