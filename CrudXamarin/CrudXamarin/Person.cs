@@ -2,6 +2,7 @@
 
 using System;
 using System.ComponentModel;
+
 namespace CrudXamarin
 {
     [Table("Persons")]
