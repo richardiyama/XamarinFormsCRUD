@@ -46,6 +46,7 @@ namespace CrudXamarin
                 this._firstName = value;
                 OnPropertyChanged(nameof(FirstName));
             }
+        
         }
 
         
