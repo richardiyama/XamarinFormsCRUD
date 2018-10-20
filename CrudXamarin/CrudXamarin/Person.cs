@@ -16,6 +16,7 @@ namespace CrudXamarin
         [PrimaryKey, AutoIncrement]
         public int Id
         {
+            
             get
             {
                 return _id;
