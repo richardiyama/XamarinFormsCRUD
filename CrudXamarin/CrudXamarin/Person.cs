@@ -29,6 +29,7 @@ namespace CrudXamarin
             }
         
         }
+        
         private string _firstName;
         [NotNull]
         public string FirstName
