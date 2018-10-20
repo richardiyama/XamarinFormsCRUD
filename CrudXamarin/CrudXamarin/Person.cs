@@ -119,6 +119,7 @@ namespace CrudXamarin
         }
 
         private string _image;
+        
         public string Images
         {
             get
