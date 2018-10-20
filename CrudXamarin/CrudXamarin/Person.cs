@@ -70,6 +70,7 @@ namespace CrudXamarin
         }
         
         private string _location;
+        
         [MaxLength(50)]
         public string Location
         {
