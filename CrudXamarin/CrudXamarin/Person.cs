@@ -9,6 +9,7 @@ namespace CrudXamarin
 {
     
     [Table("Persons")]
+   
     public class Person : INotifyPropertyChanged
     {
         private int _id;
