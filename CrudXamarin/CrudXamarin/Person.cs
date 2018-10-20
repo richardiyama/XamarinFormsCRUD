@@ -66,6 +66,7 @@ namespace CrudXamarin
                 this._lastName = value;
                 OnPropertyChanged(nameof(LastName));
             }
+        
         }
         private string _location;
         [MaxLength(50)]
