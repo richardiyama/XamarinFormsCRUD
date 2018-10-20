@@ -78,6 +78,7 @@ namespace CrudXamarin
             {
                 return _location;
             }
+            
             set
             {
                 this._location = value;
